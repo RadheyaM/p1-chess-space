@@ -140,3 +140,18 @@ nav a:hover {
     overflow: visible;
     transition: 0.3s;
 }
+
+/*
+                        ---------- HERO SECTION ----------
+*/
+
+.hero-section {
+    background-image: url(../images/hero-image.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    position: relative;
+    overflow: hidden;
+    height: 80vh;
+}
