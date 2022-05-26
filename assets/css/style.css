@@ -2,6 +2,9 @@
 
 :root {
     --body-bg: #fff;
+    --header-footer-bg: aqua;
+    --main-txt: #252525;
+    --active-txt: red;
 }
 
 *, *::before, *::after {
@@ -12,4 +15,128 @@ body {
     background-color: var(--body-bg);
     margin: 0;
     font-family: 'montserrat', sans-serif;
+    margin-top: 8em;
+}
+
+header {
+    background-color: var(--header-footer-bg);
+    text-align: center;
+    position: fixed;
+    z-index: 9999;
+    width: 100%;
+    max-width: inherit;
+    margin-top: 0;
+    top: 0;
+}
+
+header > a { 
+    font-style: none;
+    text-decoration: none;
+    color: var(--main-txt);
+}
+/* 
+    Hide the checkbox 
+*/
+
+.hamburger-toggle {
+    display: none;
+}
+
+/*  
+    Create the initial hamburger line and styling.
+*/
+
+.hamburger-toggle-label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 1em;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+/*
+    use ::before and ::after to duplicate the line and create the top and bottom of the hamburger
+*/
+
+.hamburger-toggle-label span,
+.hamburger-toggle-label span::before,
+.hamburger-toggle-label span::after {
+    display: block;
+    background: var(--main-txt);
+    height: 2px;
+    width: 2em;
+    border-radius: 2px;
+    position: relative;
+
+}
+
+.hamburger-toggle-label span::before,
+.hamburger-toggle-label span::after {
+    content: '';
+    position: absolute;
+}
+
+.hamburger-toggle-label span::before {
+    bottom: 7px;
+}
+
+.hamburger-toggle-label span::after {
+    top: 7px;
+}
+
+nav {
+    position: absolute;
+    text-align: left;
+    top: 100%;
+    left: 0;
+    background-color: var(--header-footer-bg);
+    width: 100%;
+    transform: scale(1, 0);
+    transform-origin: top;
+    transition: transform 488ms ease-in-out;
+}
+
+nav ul {
+    margin: 0;
+    padding-right: 16em;
+    list-style: none;
+}
+
+nav li {
+    margin-bottom: 1em;
+    margin-left: 1em;
+    transition: 0.3s;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--main-txt);
+    font-size: 120%;
+    opacity: 0;
+    transition: opacity 150ms ease-in-out;
+}
+
+nav a:hover {
+    color: var(--active-txt);
+}
+
+/*
+    :checked - dictates what happens after the hamburger toggle is activated
+*/
+
+.hamburger-toggle:checked ~ nav {
+    transform: scale(1,1);
+}
+
+.hamburger-toggle:checked ~ nav a {
+    opacity: 1;
+    transition: opacity 250ms ease-in-out 250ms;
+}
+
+.logo {
+    font-size: 250%;
+    overflow: visible;
+    transition: 0.3s;
 }
