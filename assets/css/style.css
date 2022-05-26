@@ -5,6 +5,7 @@
     --header-footer-bg: aqua;
     --main-txt: #252525;
     --active-txt: red;
+    --bg-visible-txt: rgba(16, 15, 15, 0.1);
 }
 
 *, *::before, *::after {
@@ -15,8 +16,12 @@ body {
     background-color: var(--body-bg);
     margin: 0;
     font-family: 'montserrat', sans-serif;
-    margin-top: 8em;
+    margin-top: 6em;
 }
+
+/*
+                ----------LOGO AND NAVIGATION BAR ----------
+*/
 
 header {
     background-color: var(--header-footer-bg);
@@ -153,5 +158,15 @@ nav a:hover {
 
     position: relative;
     overflow: hidden;
-    height: 80vh;
+    height: 60vh;
+}
+
+.hero-text {
+    color: var(--main-txt);
+    font-size: 100%;
+    
+    margin: auto;
+    width: 80%;
+    height: 25vh;
+    padding: 2em;
 }
