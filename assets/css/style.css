@@ -151,6 +151,11 @@ nav a:hover {
     transition: 0.3s;
 }
 
+.logo:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 40px -10px --card-shadow;
+}
+
 /*
                         ---------- HERO SECTION ----------
 */
@@ -174,6 +179,12 @@ nav a:hover {
     width: 80%;
     height: 25vh;
     padding: 2em;
+}
+
+.hero-text .button:hover {
+    transform: scale(1.02);
+    transition: ease-in-out;
+    box-shadow: 0 0 40px -10px --card-shadow;
 }
 
 /*
@@ -234,6 +245,11 @@ nav a:hover {
     border-radius: 5px;
 }
 
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 40px -10px --card-shadow;
+}
+
 /*
                         ----------WHY CHESS SECTION----------
 */
@@ -280,5 +296,5 @@ footer {
 .social-networks i {
     font-size: 250%;
     padding: 0 5%;
-    color: #3a3a3a;
+    color: var(--main-txt);
 }
