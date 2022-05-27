@@ -176,9 +176,14 @@ nav a:hover {
     font-size: 100%;
     
     margin: auto;
-    width: 80%;
-    height: 25vh;
+    width: 60%;
+    height: 50vh;
     padding: 2em;
+}
+
+.hero-text .button {
+    width: 50%;
+    margin: auto;
 }
 
 .hero-text .button:hover {
