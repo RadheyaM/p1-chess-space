@@ -10,6 +10,7 @@
     --card-gradient1: orange;
     --card-gradient2: #f0d05fcc;
     --card-section-bg: #fff;
+    --why-chess-txt-bg: rgba(16, 15, 15, 0.25);
 }
 
 *, *::before, *::after {
@@ -249,3 +250,11 @@ nav a:hover {
     padding-top: 2em;
     box-shadow: #3a3a3a;
 } 
+
+.why-chess-container {
+    background-color: var(--why-chess-txt-bg);
+    
+    padding: 2em;
+    border-radius: 5px;
+    margin: 2em;
+}
