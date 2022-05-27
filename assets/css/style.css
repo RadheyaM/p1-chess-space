@@ -168,7 +168,7 @@ nav a:hover {
 
     position: relative;
     overflow: hidden;
-    height: 60vh;
+    height: 70vh;
 }
 
 .hero-text {
@@ -176,9 +176,9 @@ nav a:hover {
     font-size: 100%;
     
     margin: auto;
-    width: 60%;
+    width: 65%;
     height: 50vh;
-    padding: 2em;
+    padding: 6em 1em;
 }
 
 .hero-text .button {
@@ -286,8 +286,9 @@ nav a:hover {
 
 footer {
     background-color: var(--header-footer-bg);
-    height: fit-content;
+    height: 5em;
     width: 100%;
+    margin: 0;
 }
 
 .social-networks {
@@ -299,7 +300,7 @@ footer {
 }
 
 .social-networks i {
-    font-size: 250%;
-    padding: 0 5%;
+    font-size: 200%;
+    padding: 5%;
     color: var(--main-txt);
 }
