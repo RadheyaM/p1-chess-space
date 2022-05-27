@@ -4,7 +4,7 @@
     --body-bg: #fff;
     --header-footer-bg: aqua;
     --main-txt: #252525;
-    --card-txt: #fff;
+    --main-txt2: #fff;
     --active-txt: red;
     --bg-visible-txt: rgba(16, 15, 15, 0.1);
     --card-gradient1: orange;
@@ -213,7 +213,7 @@ nav a:hover {
     text-align: center;
     padding: 25px 10px;
     background: linear-gradient(to right, var(--card-gradient1), var(--card-gradient2));
-    color: var(--card-txt);
+    color: var(--main-txt2);
 }
 
 .card-body {
@@ -224,7 +224,7 @@ nav a:hover {
 
 .button {
     display: block;
-    color: var(--card-txt);
+    color: var(--main-txt2);
     text-align: center;
     background: linear-gradient(to right, var(--card-gradient1), var(--card-gradient2));
     margin-top: 30px;
@@ -232,3 +232,20 @@ nav a:hover {
     padding: 10px 5px;
     border-radius: 5px;
 }
+
+/*
+                        ----------WHY CHESS SECTION----------
+*/
+
+.why-chess-section {
+    color: var(--main-txt2);
+    background-image: url(../images/why-chess.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    height: fit-content;
+    gap: 2em;
+    padding-bottom: 10em;
+    padding-top: 2em;
+    box-shadow: #3a3a3a;
+} 
