@@ -4,8 +4,12 @@
     --body-bg: #fff;
     --header-footer-bg: aqua;
     --main-txt: #252525;
+    --card-txt: #fff;
     --active-txt: red;
     --bg-visible-txt: rgba(16, 15, 15, 0.1);
+    --card-gradient1: orange;
+    --card-gradient2: #f0d05fcc;
+    --card-section-bg: #fff;
 }
 
 *, *::before, *::after {
@@ -169,4 +173,51 @@ nav a:hover {
     width: 80%;
     height: 25vh;
     padding: 2em;
+}
+
+/*
+                        ----------OFFER CARDS SECTION----------
+*/
+
+.offers-section {
+    background-color: var(--card-section-bg);
+    width: 100%;
+    height: fit-content;
+    padding: 50px 50px;
+    z-index: 999;
+}
+
+.offers-section h2 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 50px;
+}
+
+.card-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+}
+
+.card {
+    width: 300px;
+    background: var(--card-section-bg);
+    border: 1px solid #ccc;
+    margin-bottom: 50px;
+    transition: 0.3s;
+    border-radius: 5px;
+}
+
+.card-header {
+    text-align: center;
+    padding: 25px 10px;
+    background: linear-gradient(to right, var(--card-gradient1), var(--card-gradient2));
+    color: var(--card-txt);
+}
+
+.card-body {
+    padding: 30px 20px;
+    text-align: center;
+    font-size: 1em;
 }
