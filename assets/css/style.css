@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap');
 
 :root {
     --body-bg: #fff;
@@ -10,7 +10,7 @@
     --card-gradient1: orange;
     --card-gradient2: #f0d05fcc;
     --card-section-bg: #fff;
-    --why-chess-txt-bg: rgba(16, 15, 15, 0.25);
+    --why-chess-txt-bg: rgba(16, 15, 15, 0.3);
 }
 
 *, *::before, *::after {
@@ -21,7 +21,16 @@ body {
     background-color: var(--body-bg);
     margin: 0;
     font-family: 'montserrat', sans-serif;
+    font-weight: 500;
     margin-top: 6em;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+h3 {
+    font-size: 1.3em;
 }
 
 /*
@@ -174,6 +183,7 @@ nav a:hover {
 .hero-text {
     color: var(--main-txt);
     font-size: 100%;
+    text-align: center;
     
     margin: auto;
     width: 65%;
@@ -274,10 +284,19 @@ nav a:hover {
 
 .why-chess-container {
     background-color: var(--why-chess-txt-bg);
-    
     padding: 2em;
     border-radius: 5px;
     margin: 2em;
+    line-height: 1.5em;
+}
+
+.why-chess-container h2 {
+    padding: 1em;
+    text-align: center;
+}
+
+.why-chess-container p {
+    font-weight: 300;
 }
 
 /*
