@@ -339,7 +339,10 @@ footer {
 .video-text-block {
     display: flex;
     flex-wrap: wrap;
-    padding: 4em;
+    padding: 1em;
+    /* max-width: 950px;
+    max-height: 590px;
+} */
 }
 
 .video-text-block > .iframe-container {
@@ -353,6 +356,7 @@ footer {
 
 .video-text-block > .text-container {
     flex: 1 1 30%;
+    padding-left: 2em;
 }
 
 .iframe-video {
@@ -371,7 +375,9 @@ Secton section to flip video and text to opposite sides
 .video-text-block2 {
     display: flex;
     flex-wrap: wrap;
-    padding: 4em;
+    padding: 1em;
+    /* max-width: 950px;
+    max-height: 590px; */
 
 }
 
