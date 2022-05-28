@@ -332,6 +332,42 @@ footer {
     color: var(--main-txt);
 }
 
+/*
+                    ----------MORE CHESS PAGE----------
+*/
+
+.video-text-block {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.video-text-block > .iframe-container {
+    flex: 1 1 70%;
+    
+    
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%;
+
+}
+
+.video-text-block > .text-container {
+    flex: 1 1 30%;
+}
+
+.iframe-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+/*
+                    ----------MEDIA QUERIES----------
+*/
+
 @media screen and (min-width: 1000px) {
     
     .hamburger-toggle-label {
