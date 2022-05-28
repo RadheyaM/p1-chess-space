@@ -288,8 +288,10 @@ nav a:hover {
     background-color: var(--why-chess-txt-bg);
     padding: 2em;
     border-radius: 5px;
-    margin: 2em;
     line-height: 1.5em;
+    height: fit-content;
+    max-width: 830px;
+    max-height: 1460px;
 }
 
 .why-chess-container h2 {
@@ -311,7 +313,7 @@ nav a:hover {
 
 footer {
     background-color: var(--header-footer-bg);
-    height: 5em;
+    height: 12em;
     width: 100%;
     margin: 0;
 }
@@ -383,7 +385,7 @@ footer {
 
         margin: 0;
         bottom: 100px;
-        right: 130px;
+        right: 250px;
         top: 20px;
 
 
