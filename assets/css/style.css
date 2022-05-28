@@ -339,11 +339,11 @@ footer {
 .video-text-block {
     display: flex;
     flex-wrap: wrap;
+    padding: 4em;
 }
 
 .video-text-block > .iframe-container {
     flex: 1 1 70%;
-    
     
     position: relative;
     overflow: hidden;
@@ -363,6 +363,34 @@ footer {
     height: 100%;
     border: 0;
 }
+
+/*
+Secton section to flip video and text to opposite sides
+*/
+
+.video-text-block2 {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 4em;
+
+}
+
+.video-text-block2 > .text-container {
+    flex: 1 1 30%;
+}
+
+.video-text-block2 > .iframe-container {
+    flex: 1 1 70%;
+    
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%;
+
+}
+
+
+
+
 
 /*
                     ----------MEDIA QUERIES----------
