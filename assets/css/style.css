@@ -189,6 +189,9 @@ nav a:hover {
     width: 65%;
     height: 50vh;
     padding: 6em 1em;
+
+    max-width: 490px;
+    max-height: 498px;
 }
 
 .hero-text .button {
@@ -369,6 +372,22 @@ footer {
 
     nav a {
         opacity: 1;
+    }
+
+    /*
+                    ----------Hero Text----------
+    */
+
+    .hero-text {
+        position: absolute;
+
+        margin: 0;
+        bottom: 100px;
+        right: 130px;
+        top: 20px;
+
+
+    
     }
 
     /*
