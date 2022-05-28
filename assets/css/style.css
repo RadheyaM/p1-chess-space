@@ -328,6 +328,53 @@ footer {
 }
 
 @media screen and (min-width: 1000px) {
+    
+    .hamburger-toggle-label {
+        display: none;
+    }
+
+    /*
+        create a grid to structure the logo and nav menu on larger screens.
+    */
+
+    header {
+        display: grid;
+        grid-template-columns: 1fr auto 1fr;
+    }
+
+    .logo {
+        float: left;
+        padding-left: 100px;
+    }
+
+
+    nav {
+        all: unset;
+        grid-column: 3 / 4;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: flex-end;
+        padding-right: 100px;
+    }
+
+    nav li {
+        margin-bottom: 0;
+        margin-left: 2em;
+    }
+
+    nav a {
+        opacity: 1;
+    }
+
+    /*
+                    ----------Why Chess----------
+    */
+
     .why-chess-container {
         margin-left: 20em;
     }
