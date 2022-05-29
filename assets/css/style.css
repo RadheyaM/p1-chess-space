@@ -418,9 +418,6 @@ hr {
         margin: 0;
         bottom: 250px;
         right: 90px;
-
-
-    
     }
 
     /*
@@ -429,5 +426,32 @@ hr {
 
     .why-chess-container {
         margin: auto;
+    }
+}
+
+@media screen and (max-width: 670px) {
+    body {
+        margin-top: 3em;
+    }
+
+    .hero-section {
+        height: 100vh;
+    }
+
+    .hero-text {
+        font-size: 90%;
+    }
+
+}
+
+@media screen and (max-width: 400px) {
+    .logo {
+        font-size: 170%;
+    }
+
+    .hero-text {
+        width: 80vw;
+        padding: 1.5em;
+        font-size: 80%;
     }
 }
