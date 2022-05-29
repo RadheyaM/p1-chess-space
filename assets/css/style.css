@@ -28,6 +28,7 @@ body {
     margin: auto;
     margin-top: 6em;
     max-width: 1600px;
+    min-width: 300px;
 }
 
 h2 {
@@ -356,6 +357,11 @@ footer {
     border: none;
 }
 
+.iframe-video {
+    width: 560px;
+    height: 315px;
+}
+
 hr {
     width: 50%;
 }
@@ -369,10 +375,6 @@ hr {
     .hamburger-toggle-label {
         display: none;
     }
-
-    /*
-        create a grid to structure the logo and nav menu on larger screens.
-    */
 
     header {
         display: grid;
@@ -408,10 +410,6 @@ hr {
         opacity: 1;
     }
 
-    /*
-                    ----------Hero Text----------
-    */
-
     .hero-text {
         position: absolute;
 
@@ -419,10 +417,6 @@ hr {
         bottom: 250px;
         right: 90px;
     }
-
-    /*
-                    ----------Why Chess----------
-    */
 
     .why-chess-container {
         margin: auto;
@@ -442,6 +436,11 @@ hr {
         font-size: 90%;
     }
 
+    .iframe-video {
+        width: 373.33px;
+        height: 210px;
+    }
+
 }
 
 @media screen and (max-width: 400px) {
@@ -453,5 +452,12 @@ hr {
         width: 80vw;
         padding: 1.5em;
         font-size: 80%;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .iframe-video {
+        width: 186.66px;
+        height: 105px;
     }
 }
