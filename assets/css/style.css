@@ -312,14 +312,13 @@ nav a:hover {
 */
 
 footer {
-    background-color: var(--header-footer-bg);
-    height: 12em;
-    width: 100%;
-    margin: 0;
+    height: 100px;
 }
 
 .social-networks {
     text-align: center;
+    background: var(--header-footer-bg);
+    margin: 0;
 }
 
 .social-networks > li {
@@ -327,10 +326,12 @@ footer {
 }
 
 .social-networks i {
-    font-size: 200%;
-    padding: 5%;
-    color: var(--main-txt);
+    font-size: 250%;
+    margin: 1%;
+    padding: 3%;
+    color: #3a3a3a;
 }
+
 
 /*
                     ----------MORE CHESS PAGE----------
