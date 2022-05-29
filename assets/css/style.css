@@ -344,6 +344,19 @@ footer {
     line-height: 2em;
 }
 
+.more-section h2, h3 {
+    padding-top: 1em;
+}
+
+.game-iframe {
+    width: 100%;
+    border: none;
+}
+
+hr {
+    width: 50%;
+}
+
 /*
                     ----------MEDIA QUERIES----------
 */
