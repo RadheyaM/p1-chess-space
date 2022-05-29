@@ -17,12 +17,17 @@
     box-sizing: border-box;
 }
 
+html {
+    background-color: whitesmoke;
+}
+
 body {
     background-color: var(--body-bg);
-    margin: 0;
     font-family: 'montserrat', sans-serif;
     font-weight: 500;
+    margin: auto;
     margin-top: 6em;
+    max-width: 1600px;
 }
 
 h2 {
@@ -423,6 +428,6 @@ hr {
     */
 
     .why-chess-container {
-        margin-left: 20em;
+        margin: auto;
     }
 }
