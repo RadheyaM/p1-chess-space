@@ -177,12 +177,11 @@ nav a:hover {
 
     position: relative;
     overflow: hidden;
-    height: 70vh;
+    height: 80vh;
 }
 
 .hero-text {
     color: var(--main-txt);
-    font-size: 100%;
     text-align: center;
     
     margin: auto;
@@ -289,9 +288,7 @@ nav a:hover {
     padding: 2em;
     border-radius: 5px;
     line-height: 1.5em;
-    height: fit-content;
     max-width: 830px;
-    max-height: 1460px;
 }
 
 .why-chess-container h2 {
@@ -414,9 +411,8 @@ hr {
         position: absolute;
 
         margin: 0;
-        bottom: 100px;
-        right: 250px;
-        top: 20px;
+        bottom: 250px;
+        right: 90px;
 
 
     
