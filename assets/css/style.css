@@ -506,6 +506,10 @@ hr {
         height: 210px;
     }
 
+    .signup-form {
+        margin-left: 2em;
+    }
+
 }
 
 @media screen and (max-width: 420px) {
