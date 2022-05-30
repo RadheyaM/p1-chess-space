@@ -384,7 +384,7 @@ hr {
     background: url(../images/signup-pic.jpg);
     background-size: cover;
     background-position: center;
-    height: 1200px;
+    height: 85vh;
 }
 
 .signup-form {
@@ -483,11 +483,11 @@ hr {
 
     .hero-text {
         position: absolute;
-
         margin: 0;
         top: 100px;
         right: 90px;
     }
+
 }
 
 @media screen and (max-width: 670px) {
@@ -510,7 +510,7 @@ hr {
     }
 
     .contact-section {
-        height: 850px;
+        height: 900px;
     }
 
     .signup-form {
@@ -534,6 +534,7 @@ hr {
         padding: 1.5em;
         font-size: 80%;
     }
+
 }
 
 @media screen and (max-width: 375px) {
@@ -547,4 +548,5 @@ hr {
         width: 186.66px;
         height: 105px;
     }
+
 }
