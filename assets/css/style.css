@@ -10,6 +10,7 @@
     --card-gradient1: orange;
     --card-gradient2: #f0d05fcc;
     --card-section-bg: #fff;
+    --card-shadow: rgba(0, 0, 0, 0.25);
     --why-chess-txt-bg: rgba(16, 15, 15, 0.35);
     --signup-bg: rgba(60, 60, 60, 0.6);
 }
