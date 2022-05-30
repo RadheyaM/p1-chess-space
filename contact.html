@@ -27,5 +27,29 @@
             </ul>
         </nav>
     </header>
+    <section class="contact-section">
+        <form class="signup-form" method="POST" action="https://formdump.codeinstitute.net/">
+            <h2>Good To See You!</h2>
+            <label for="fname">First Name</label>
+            <input class="text-input" id="fname" name="first_name" type="text" required>
+            
+            <label for="lname">Last Name</label>
+            <input class="text-input" id="lname" name="last_name" type="text" required>
+            
+            <label for="email">Email Address</label>
+            <input class="text-input" type="email" id="email" name="email_address" required>
+            
+            <label for="lessons">Online Lessons</label>
+            <input type="radio" id="lessons" name="signup-option" value="lessons" required>
+            <label for="trail">Group Event</label>
+            <input type="radio" id="group" name="signup-option" value="group" required>
+            <label for="both">Join Our Club</label>
+            <input type="radio" id="club" name="signup-option" value="club" required>
+            <label for="all-three">All Three!</label>
+            <input type="radio" id="all-three" name="signup-option" value="all-three" required>
+            
+            <input class="join-button" type="submit" value="Let's Chess!">
+        </form>
+    </section>
 </body>
 </html>
