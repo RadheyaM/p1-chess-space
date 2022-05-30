@@ -11,6 +11,7 @@
     --card-gradient2: #f0d05fcc;
     --card-section-bg: #fff;
     --why-chess-txt-bg: rgba(16, 15, 15, 0.3);
+    --signup-bg: rgba(60, 60, 60, 0.6);
 }
 
 *, *::before, *::after {
@@ -364,6 +365,48 @@ footer {
 
 hr {
     width: 50%;
+}
+
+/*
+                    ----------CONTACT FORM----------
+*/
+
+.contact-section {
+    clear: left;
+    background: url(../images/signup-pic.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.signup-form {
+    margin: 150px 10% 0 0;
+    color: var(--main-txt2);
+    background-color: var(--signup-bg);
+    max-width: 400px;
+    position: absolute;
+    right: 10%;
+    padding: 2em;
+}
+
+.signup-form > h2 {
+    color: var(--main-txt2);
+    margin-bottom: 1em;
+}
+
+.text-input {
+    background: transparent;
+    color: var(--main-txt2);
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px;
+    border: 1px solid var(--main-txt2);
+    border-radius: 2px;
+    
+}
+
+.text-input:hover {
+    border-color: var(--active-txt);
 }
 
 /*
