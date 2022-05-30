@@ -345,6 +345,9 @@ footer {
 .more-section {
     max-width: 800px;
     margin: auto;
+}
+
+.more-block {
     padding: 2em;
     text-align: center;
     line-height: 2em;
