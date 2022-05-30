@@ -184,7 +184,7 @@ nav a:hover {
 
     position: relative;
     overflow: hidden;
-    height: 80vh;
+    height: 90vh;
 }
 
 .hero-text {
@@ -292,6 +292,7 @@ nav a:hover {
 
 .why-chess-container {
     background-color: var(--why-chess-txt-bg);
+    margin: auto;
     padding: 2em;
     border-radius: 5px;
     line-height: 1.5em;
@@ -347,6 +348,10 @@ footer {
     padding: 2em;
     text-align: center;
     line-height: 2em;
+}
+
+.more-section .at-top {
+    padding-top: 2.5em;
 }
 
 .more-section h2, h3 {
@@ -477,12 +482,8 @@ hr {
         position: absolute;
 
         margin: 0;
-        bottom: 250px;
+        top: 100px;
         right: 90px;
-    }
-
-    .why-chess-container {
-        margin: auto;
     }
 }
 
@@ -493,7 +494,7 @@ hr {
     }
 
     .hero-section {
-        height: 100vh;
+        height: 80vh;
     }
 
     .hero-text {
@@ -507,20 +508,29 @@ hr {
 
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 420px) {
 
     .logo {
         font-size: 170%;
+        padding-left: 1em;
     }
 
     .hero-text {
-        width: 80vw;
+        position: absolute;
+        top: 30px;
+        left: 30px;
+        width: 85vw;
         padding: 1.5em;
         font-size: 80%;
     }
 }
 
 @media screen and (max-width: 375px) {
+   .logo {
+    float: right;
+    padding-right: 1em;
+   }
+   
     .iframe-video {
         width: 186.66px;
         height: 105px;
