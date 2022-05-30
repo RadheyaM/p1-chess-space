@@ -10,7 +10,7 @@
     --card-gradient1: orange;
     --card-gradient2: #f0d05fcc;
     --card-section-bg: #fff;
-    --why-chess-txt-bg: rgba(16, 15, 15, 0.3);
+    --why-chess-txt-bg: rgba(16, 15, 15, 0.35);
     --signup-bg: rgba(60, 60, 60, 0.6);
 }
 
@@ -317,7 +317,7 @@ nav a:hover {
 */
 
 footer {
-    height: 100px;
+    height: fit-content;
 }
 
 .social-networks {
@@ -333,8 +333,8 @@ footer {
 .social-networks i {
     font-size: 250%;
     margin: 1%;
-    padding: 3%;
-    color: #3a3a3a;
+    padding: 1% 3%;
+    color: var(--main-txt);
 }
 
 
@@ -381,7 +381,7 @@ hr {
     background: url(../images/signup-pic.jpg);
     background-size: cover;
     background-position: center;
-    height: 100vh;
+    height: 1200px;
 }
 
 .signup-form {
@@ -506,8 +506,12 @@ hr {
         height: 210px;
     }
 
+    .contact-section {
+        height: 850px;
+    }
+
     .signup-form {
-        margin-left: 2em;
+        margin: 1em 0 0 2em;
     }
 
 }
@@ -530,6 +534,7 @@ hr {
 }
 
 @media screen and (max-width: 375px) {
+
    .logo {
     float: right;
     padding-right: 1em;
