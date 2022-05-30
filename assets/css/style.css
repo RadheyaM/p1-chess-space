@@ -169,7 +169,7 @@ nav a:hover {
 
 .logo:hover {
     transform: scale(1.05);
-    box-shadow: 0 0 40px -10px --card-shadow;
+    box-shadow: 0 0 40px -10px var(--card-shadow);
 }
 
 /*
@@ -208,7 +208,7 @@ nav a:hover {
 .hero-text .button:hover {
     transform: scale(1.02);
     transition: ease-in-out;
-    box-shadow: 0 0 40px -10px --card-shadow;
+    box-shadow: 0 0 40px -10px var(--card-shadow);
 }
 
 /*
@@ -271,7 +271,7 @@ nav a:hover {
 
 .card:hover {
     transform: scale(1.05);
-    box-shadow: 0 0 40px -10px --card-shadow;
+    box-shadow: 0 0 40px -10px var(--card-shadow);
 }
 
 /*
@@ -400,6 +400,20 @@ hr {
     padding: 0 2em 2em 2em;
 }
 
+.signup-form ul {
+    list-style-type: none;
+    padding-bottom: 2em;
+}
+
+.signup-form .button {
+    margin: auto;
+    transition: 1s;
+}
+
+.signup-form .button:hover {
+    transform: scale(1.2);
+    box-shadow: 0 0 40px -10px var(--card-shadow);
+}
 
 .text-input {
     background: transparent;
@@ -413,15 +427,6 @@ hr {
 
 .text-input:hover {
     border-color: var(--card-gradient1);
-}
-
-.signup-form ul {
-    list-style-type: none;
-    padding-bottom: 2em;
-}
-
-.signup-form .button {
-    margin: auto;
 }
 
 /*
@@ -482,6 +487,7 @@ hr {
 }
 
 @media screen and (max-width: 670px) {
+
     body {
         margin-top: 3em;
     }
@@ -502,6 +508,7 @@ hr {
 }
 
 @media screen and (max-width: 400px) {
+
     .logo {
         font-size: 170%;
     }
