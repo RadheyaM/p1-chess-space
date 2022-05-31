@@ -287,7 +287,6 @@ nav a:hover {
     height: fit-content;
     gap: 2em;
     padding: 6em 0;
-    box-shadow: var(--card-shadow);
 } 
 
 .why-chess-container {
