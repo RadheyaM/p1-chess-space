@@ -169,7 +169,6 @@ nav a:hover {
 
 .logo:hover {
     transform: scale(1.05);
-    box-shadow: 0 0 40px -10px var(--card-shadow);
 }
 
 /*
@@ -177,7 +176,7 @@ nav a:hover {
 */
 
 .hero-section {
-    background-image: url(../images/hero-image.jpg);
+    background-image: url(../images/hero-image.webp);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -280,7 +279,7 @@ nav a:hover {
 
 .why-chess-section {
     color: var(--main-txt2);
-    background-image: url(../images/why-chess.jpg);
+    background-image: url(../images/why-chess.webp);
     background-size: cover;
     background-repeat: no-repeat;
     
@@ -380,10 +379,10 @@ hr {
 
 .contact-section {
     clear: left;
-    background: url(../images/signup-pic.jpg);
+    background: url(../images/signup-pic.webp);
     background-size: cover;
     background-position: center;
-    height: 85vh;
+    height: 1100px;
 }
 
 .signup-form {
