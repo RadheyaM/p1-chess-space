@@ -62,3 +62,32 @@ Chess Space is a site created by a hypothetical professional chess player with t
   - A Blog Page
   - A Community Discussion Forum
   - Chess Club Leaderboard for members
+ 
+## Credits
+
+### Content
+
+- The written content on the website is original work by the developer.
+- The More Chess Page contains quotes taken from ![chess.com](https://www.chess.com/forum/view/general/300--chess-quotes).
+- The More Chess Page contains an interactive board game iframe from ![chess.come](https://www.chess.com/home) and two Youtube videos from ![gingerGM](https://www.youtube.com/c/GingerGM) and ![Chess Press](https://www.youtube.com/channel/UCd5tjdWdIJYqA5Yg7omrgZQ)
+- The colour scheme developed naturally from the primary colours of the main images and in the case of text was based on the best possible readability.
+
+### Code
+
+- The Hamburger Menu was designed following a video tutorial by ![Kevin Powell](https://youtu.be/8QKOaTYvYUA) on Youtube.
+- The Offer Cards - A video tutorial by ![Web Zone](https://youtu.be/StnlVOm3ZZg) on Youtube was used to get the basic structure after which the code was edited to fit the website design.
+- The Footer Code comes from the ![Love Running Project](https://github.com/Code-Institute-Solutions/love-running-2.0-sourcecode) from code institute, the css was edited to fit the design of Chess Space.
+- The Contact form code is also based directly on the code in the ![Love Running Project](https://github.com/Code-Institute-Solutions/love-running-2.0-sourcecode) from Code Institute, but was edited to fit the Chess Space design, colour scheme etc.
+
+### Media
+- Hero Image
+  - ![Ylanite Koppens - Chess Pieces on Table](https://www.pexels.com/photo/chess-pieces-on-table-1152662/).
+- Why Chess Image
+  - ![Karolina Grabowska - Black Chess Pieces on Yellow Background](https://www.pexels.com/photo/black-chess-pieces-on-yellow-background-5477776/).
+- Contact Image
+  - ![George Becker - Black Queen Chess Piece Standing](https://www.pexels.com/photo/black-queen-chess-piece-standing-129742/).
+
+- The Icons in the logo and footer are free to use fonts from ![Font Awesome](https://fontawesome.com/).
+
+- The font used comes from ![Google Fonts](https://fonts.google.com/).
+
