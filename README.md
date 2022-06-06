@@ -11,6 +11,7 @@ Chess Space is a site created by a hypothetical professional chess player with t
 ## Table of Contents
 * [Features](#features)
 * [Technologies Used](#technologies-used)
+* [Testing](#testing)
 * [Credits](#credits)
 
 ## Features
@@ -133,15 +134,33 @@ Chess Space is a site created by a hypothetical professional chess player with t
 
 - [Git](https://git-scm.com/) - for version control.
 - [Github](https://github.com/) - repository to store the project files and host/share the project.
-- [Gitpod](https://gitpod.io/) - the browser IDE used to write the project code.
+- [Gitpod](https://gitpod.io/) - browser IDE used to write the project code.
 - [Convertio](https://convertio.co/jpg-webp/) - used to convert jpg images to better optimised webp format.
 - [Optimizilla](https://imagecompressor.com/) - used to optimise the images for better performance.
 - Chrome developer tools - used to view, edit and test the site throughout development.
 
+## Testing
+
+### Code Validation
+
+- W3 Nu HTML Checker - No errors or warnings to show:
+   - [index.html results.](https://validator.w3.org/nu/?doc=https%3A%2F%2Fradheyam.github.io%2Fp1-chess-space%2Findex.html)
+   - [more-chess.html results.](https://validator.w3.org/nu/?doc=https%3A%2F%2Fradheyam.github.io%2Fp1-chess-space%2Fmore-chess.html)
+   - [contact.html results.](https://validator.w3.org/nu/?doc=https%3A%2F%2Fradheyam.github.io%2Fp1-chess-space%2Fcontact.html)
+- W3C CSS Validation Service - No error found:
+   - [CSS test results.](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fradheyam.github.io%2Fp1-chess-space%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+
+
+### Performance and Responsivity
+- Chrome Developer Tools - Lighthouse
+   - [Test Results](/media/lighthouse-results/)
+- Chrome Developer Tools - Different Screen Sizes
+   - The three pages have been extensively tested on various screen sizes using Chrome developer tools throughout development for the best possible experience on any screen size.
+- Browser Responsivity - tested in the following with satisfactory results:
+   - Safari - Version 15.4 (17613.1.17.1.13)
+   - ChromeVersion 102.0.5005.61 (Official Build) (arm64)
+
 ## Credits
-
-  
-
 ### Content
 
 
