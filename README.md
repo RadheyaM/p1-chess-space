@@ -2,9 +2,8 @@
 
 [View the Live Project](https://radheyam.github.io/p1-chess-space/index.html)
 
-Chess Space is a site created by a hypothetical professional chess player with the aim of increasing his online following and signing users up to his lessons and/or chess club. The site provides clear and obvious ways for the user to sign-up as well as various resources designed to increase the user's interest in chess and motivation to sign-up.
+Chess Space is a site created for a hypothetical professional chess player with the aim of increasing his online following and signing users up to his lessons and/or chess club. The site provides clear and obvious ways for the user to sign-up as well as various resources designed to increase user interest in chess and motivate subscription.
 
-  
 
 ![Responsive Mockup](media/site-mockup.png)
 
@@ -12,6 +11,7 @@ Chess Space is a site created by a hypothetical professional chess player with t
 * [Features](#features)
 * [Technologies Used](#technologies-used)
 * [Testing](#testing)
+* [Deployment](#deployment)
 * [Credits](#credits)
 
 ## Features
@@ -151,18 +151,32 @@ Chess Space is a site created by a hypothetical professional chess player with t
    - [CSS test results.](media/validation-results/css-results.pdf)
 
 
-### Performance and Responsivity
-- Chrome Developer Tools - Lighthouse
+### Performance, Compatibility and Responsiveness 
+- Chrome Developer Tools - Lighthouse:
    - [Test Results](/media/lighthouse-results/)
-- Chrome Developer Tools - Different Screen Sizes
-   - The three pages have been extensively tested on various screen sizes using Chrome developer tools throughout development for the best possible experience on any screen size.
-- Browser Responsivity - tested in the following with satisfactory results:
+- Responsive Across Screen Sizes:
+   - The three pages have been extensively tested on various simulated screen sizes using Chrome Developer Tools throughout development for the best possible experience on any screen size.
+   - Tested on a windows laptop, mac mini with a widescreen display, google pixel 3 and an ipad pro 12.9".
+- Browser Compatipility - tested in the following with satisfactory results:
    - Safari - version 15.4 (17613.1.17.1.13)
    - Chrome - version 102.0.5005.61 (Official Build) (arm64)
    - Firefox - version 100.0.2 (64-bit)
    - Microsoft Edge - version 102.0.1245.33 (Official Build)(64-bit)
 
+## Deployment
+
+
 ## Credits
+### Code
+
+- The Hamburger Menu was designed following a video tutorial by [Kevin Powell](https://youtu.be/8QKOaTYvYUA) on Youtube.
+
+- The Offer Cards - A video tutorial by [Web Zone](https://youtu.be/StnlVOm3ZZg) on Youtube was used to get the basic structure after which the code was improved upon to fit the website design.
+
+- The Footer Code comes from the [Love Running Project](https://github.com/Code-Institute-Solutions/love-running-2.0-sourcecode) from code institute, the CSS was edited/added to, to fit the design of Chess Space.
+
+- The Contact form code is also based on the code in the [Love Running Project](https://github.com/Code-Institute-Solutions/love-running-2.0-sourcecode) from Code Institute, but was edited to fit the Chess Space design, colour scheme etc.
+
 ### Content
 
 
@@ -175,22 +189,7 @@ Chess Space is a site created by a hypothetical professional chess player with t
 - The colour scheme developed naturally from the primary colours of the main images and in the case of text was based on good contrast with the background for the best readability possible.
 
 
-
-### Code
-
-  
-
-- The Hamburger Menu was designed following a video tutorial by [Kevin Powell](https://youtu.be/8QKOaTYvYUA) on Youtube.
-
-- The Offer Cards - A video tutorial by [Web Zone](https://youtu.be/StnlVOm3ZZg) on Youtube was used to get the basic structure after which the code was improved upon to fit the website design.
-
-- The Footer Code comes from the [Love Running Project](https://github.com/Code-Institute-Solutions/love-running-2.0-sourcecode) from code institute, the CSS was edited/added to, to fit the design of Chess Space.
-
-- The Contact form code is also based on the code in the [Love Running Project](https://github.com/Code-Institute-Solutions/love-running-2.0-sourcecode) from Code Institute, but was edited to fit the Chess Space design, colour scheme etc.
-
-  
-
-### Media
+### Images
 
 Images came from [pexels.com](https://www.pexels.com/search/chess/).
 - Hero Image
@@ -206,11 +205,9 @@ Images came from [pexels.com](https://www.pexels.com/search/chess/).
   - [George Becker - Black Queen Chess Piece Standing](https://www.pexels.com/photo/black-queen-chess-piece-standing-129742/).
 
   
+### Font Libraries
 
 - The Icons in the logo and footer are free to use fonts from [Font Awesome](https://fontawesome.com/).
-
-  
-
 - The font comes from the [Google Fonts](https://fonts.google.com/) library.
 
 ### Acknowledgements
