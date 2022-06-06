@@ -4,7 +4,7 @@
 
 Chess Space is a site created for a hypothetical professional chess player with the aim of increasing his online following and signing users up to his lessons and/or chess club. The site provides clear and obvious ways for the user to sign-up as well as various resources designed to increase user interest in chess and motivate subscription.
 
-The design ethos throughout development has been to create an engaging, visually attractive and navigationally intuitive site.  The aim is to provide the user with an engaging and enjoyable environment, while offering real value with informative and entertaining content.  Through providing value in this way the developer hopes to encourage the user to subscribe to one of the offers.
+The design ethos throughout development is to create an engaging, visually attractive and navigationally intuitive site providing the user with an engaging and enjoyable environment, and offering real value with informative and entertaining content.  Through providing value in this way the developer hopes to encourage the user to subscribe to one of the offers displayed and engage/become invested in the community surrounding the site.
 
 
 ![Responsive Mockup](media/site-mockup.png)
@@ -26,7 +26,7 @@ The design ethos throughout development has been to create an engaging, visually
 
    - A consistent navigation bar across all three pages with a logo to the right and links to Home, More Chess and Contact pages. The Nav bar is always displayed even when scrolling down the site which allows the user to change pages effortlessly.
 
-   - the logo and nav options are cursor responsive.
+   - The logo and nav options are cursor responsive.
 
   
   
@@ -35,7 +35,7 @@ The design ethos throughout development has been to create an engaging, visually
 
   
 
-   - On smaller screen widths the nav bar collapses into a hamburger style icon which expands upon interaction. This provides space saving and intuitive navigation to the user.
+   - On smaller screen widths the nav bar collapses into a hamburger style icon which expands upon interaction giving space saving and intuitive navigational options to the user.
 
   
 
@@ -47,7 +47,7 @@ The design ethos throughout development has been to create an engaging, visually
 
   
 
-   - The user is greeted with a full-screen image and text clearly explaining the purpose of the site and allowing them to get involved immediately with a responsive 'get involved' button.
+   - The user is greeted with a full-screen image with text clearly explaining the purpose of the site and allowing them to get involved immediately with a responsive 'Get Involved' button.  Some users will visit to sign up immediately and that is another good reason to include a button on the Hero Image.
 
   
 
@@ -59,7 +59,9 @@ The design ethos throughout development has been to create an engaging, visually
 
   
 
-   - Three colourful and responsive offer cards with clear titles and descriptions, with sign-up options for the user. The cards respond to a hovering cursor providing satisfying feedback.
+   - Three colourful and responsive offer cards with clear titles and descriptions, with sign-up options for the user. 
+   - The cards respond to a hovering cursor providing satisfying feedback.
+   - A design decision was made during development to move the Offer Cards from the bottom, as initially planned, to just under the Hero Image to make them more relevant and visible.  They also create a nice space between the two large and colourful Hero and Why Chess sections.
 
   
 
@@ -81,7 +83,7 @@ The design ethos throughout development has been to create an engaging, visually
 
 -  _Footer_
 
-   - a footer consistent across the site, provides external link icons for Chess Space social media sites.
+   - A footer consistent across the three pages provides external link icons for Chess Space social media sites.
 
   
 
@@ -95,7 +97,7 @@ The design ethos throughout development has been to create an engaging, visually
 
    - The user gains insight into the wider chess community and some more reasons why signing up is a good idea!
 
-   - Includes a number of interactive elements for the user to control.
+   - Includes a number of interactive elements for the user to engage with.
 
   
 
@@ -123,7 +125,7 @@ The design ethos throughout development has been to create an engaging, visually
 
    - A Community Discussion Forum.
 
-   - Chess Club Leaderboard for members.
+   - A Members section with chess club leaderboard.
 
    - Sign-up buttons/cards on the More Chess Page.
 
@@ -178,7 +180,7 @@ The design ethos throughout development has been to create an engaging, visually
 ## Deployment
 
 Within the Github respository window select the 'settings' tab menu and navigate to 'pages'.
-Select 'Branch: main' from the dropdown menu and execute. The site will be live in a matter of minutes, and the live URL will be displayed.  Any changes made after deployment in the main branch will be added to the live site after they are committed and pushed to the  Github repository.
+Select 'Branch: main' from the dropdown menu and execute. The site will be live in a matter of minutes, and the live URL will be displayed.  Any changes made after deployment in the main branch will be added to the live site after they are committed and pushed to the Github repository.
 
 ## Credits
 ### Code
