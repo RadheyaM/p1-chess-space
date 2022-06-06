@@ -116,17 +116,17 @@ Chess Space is a site created by a hypothetical professional chess player with t
 
 -  _Features for Future Implementation:_
 
-   - A Blog Page
+   - A Blog Page.
 
-   - A Community Discussion Forum
+   - A Community Discussion Forum.
 
-   - Chess Club Leaderboard for members
+   - Chess Club Leaderboard for members.
 
 ## Technologies Used
 
 ### Languages
-- HTML5
-- CSS3
+- HTML5.
+- CSS3.
 - JavaScript (2 scripts used, one for the Font Awesome icons and one for the interactive iframe on the More Chess page).
 
 ### Other Technologies and Programmes
@@ -147,7 +147,7 @@ Chess Space is a site created by a hypothetical professional chess player with t
 
 - The More Chess page contains quotes taken from [chess.com](https://www.chess.com/forum/view/general/300--chess-quotes).
 
-- The More Chess page contains an interactive board game iframe from [chess.come](https://www.chess.com/home) and two Youtube videos from [GingerGM](https://www.youtube.com/c/GingerGM) and [Chess Press](https://www.youtube.com/channel/UCd5tjdWdIJYqA5Yg7omrgZQ)
+- The More Chess page contains an interactive board game iframe from [chess.com](https://www.chess.com/home) and two Youtube videos from [GingerGM](https://www.youtube.com/c/GingerGM) and [Chess Press](https://www.youtube.com/channel/UCd5tjdWdIJYqA5Yg7omrgZQ)..
 
 - The remaining written content is original work by the developer.
 
@@ -161,11 +161,11 @@ Chess Space is a site created by a hypothetical professional chess player with t
 
 - The Hamburger Menu was designed following a video tutorial by [Kevin Powell](https://youtu.be/8QKOaTYvYUA) on Youtube.
 
-- The Offer Cards - A video tutorial by [Web Zone](https://youtu.be/StnlVOm3ZZg) on Youtube was used to get the basic structure after which the code was edited to fit the website design.
+- The Offer Cards - A video tutorial by [Web Zone](https://youtu.be/StnlVOm3ZZg) on Youtube was used to get the basic structure after which the code was improved upon to fit the website design.
 
-- The Footer Code comes from the [Love Running Project](https://github.com/Code-Institute-Solutions/love-running-2.0-sourcecode) from code institute, the css was edited to fit the design of Chess Space.
+- The Footer Code comes from the [Love Running Project](https://github.com/Code-Institute-Solutions/love-running-2.0-sourcecode) from code institute, the CSS was edited/added to, to fit the design of Chess Space.
 
-- The Contact form code is also based directly on the code in the [Love Running Project](https://github.com/Code-Institute-Solutions/love-running-2.0-sourcecode) from Code Institute, but was edited to fit the Chess Space design, colour scheme etc.
+- The Contact form code is also based on the code in the [Love Running Project](https://github.com/Code-Institute-Solutions/love-running-2.0-sourcecode) from Code Institute, but was edited to fit the Chess Space design, colour scheme etc.
 
   
 
@@ -190,7 +190,7 @@ Images came from [pexels.com](https://www.pexels.com/search/chess/).
 
   
 
-- The font comes from [Google Fonts](https://fonts.google.com/).
+- The font comes from the [Google Fonts](https://fonts.google.com/) library.
 
 ### Acknowledgements
 
