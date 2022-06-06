@@ -144,11 +144,11 @@ Chess Space is a site created by a hypothetical professional chess player with t
 ### Code Validation
 
 - W3 Nu HTML Checker - No errors or warnings to show:
-   - [index.html results.](https://validator.w3.org/nu/?doc=https%3A%2F%2Fradheyam.github.io%2Fp1-chess-space%2Findex.html)
-   - [more-chess.html results.](https://validator.w3.org/nu/?doc=https%3A%2F%2Fradheyam.github.io%2Fp1-chess-space%2Fmore-chess.html)
-   - [contact.html results.](https://validator.w3.org/nu/?doc=https%3A%2F%2Fradheyam.github.io%2Fp1-chess-space%2Fcontact.html)
+   - [index.html results.](/media/validation-results/index-html.pdf)
+   - [more-chess.html results.](/media/validation-results/more-chess-html.pdf)
+   - [contact.html results.](media/validation-results/contact-html.pdf)
 - W3C CSS Validation Service - No error found:
-   - [CSS test results.](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fradheyam.github.io%2Fp1-chess-space%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+   - [CSS test results.](media/validation-results/css-results.pdf)
 
 
 ### Performance and Responsivity
@@ -157,8 +157,10 @@ Chess Space is a site created by a hypothetical professional chess player with t
 - Chrome Developer Tools - Different Screen Sizes
    - The three pages have been extensively tested on various screen sizes using Chrome developer tools throughout development for the best possible experience on any screen size.
 - Browser Responsivity - tested in the following with satisfactory results:
-   - Safari - Version 15.4 (17613.1.17.1.13)
-   - ChromeVersion 102.0.5005.61 (Official Build) (arm64)
+   - Safari - version 15.4 (17613.1.17.1.13)
+   - Chrome - version 102.0.5005.61 (Official Build) (arm64)
+   - Firefox - version 100.0.2 (64-bit)
+   - Microsoft Edge - version 102.0.1245.33 (Official Build)(64-bit)
 
 ## Credits
 ### Content
