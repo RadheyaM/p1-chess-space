@@ -8,11 +8,20 @@ Chess Space is a site created for a hypothetical professional chess player with 
 ![Responsive Mockup](media/site-mockup.png)
 
 ## Table of Contents
+* [User Experience](#user-experience)
 * [Features](#features)
 * [Technologies Used](#technologies-used)
 * [Testing](#testing)
 * [Deployment](#deployment)
 * [Credits](#credits)
+
+## User Experience
+
+The primary purpose of the site is to facilitate subscription, and the homepage is designed to catch and hold user attention with the ultimate goal of inspiring subscrition.
+   - to this end there is a signup button in the hero section for users coming to the site for that express purpose, no need to waste time searching and potentially loosing the user.
+   - the decision was made during development to move the Why Chess section from middle to bottom to give the Offer Cards a more prominent position, and in terms of overall page flow, giving a nice break between the large and colourful Hero and Why Chess sections.  If the user is not quite ready, they should still have the options in mind while engaged with the Why Chess section.
+   - Orange is used for the 'call to action' button/cards as it stands out nicely and contrasts well with the two images and the header and footer 'aqua' colour scheme.
+   - The More Chess page is for users new to chess and looking for further avenues into the online community.  The page offers value to the user and also to the overall goal of the site in that the user will remember where they started, and should return if they desire lessons or to get involved in a club community etc.
 
 ## Features
 
