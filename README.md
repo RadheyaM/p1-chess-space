@@ -162,8 +162,8 @@ The design ethos throughout development has been to create an engaging, visually
    - [Test Results](/media/lighthouse-results/)
 - Responsive Across Screen Sizes:
    - The three pages have been extensively tested on various simulated screen sizes using Chrome Developer Tools throughout development for the best possible experience on any screen size.
-   - Tested on a windows laptop, mac mini with a widescreen display, google pixel 3 and an ipad pro 12.9".
-- Browser Compatipility - tested in the following with satisfactory results:
+   - Tested on a windows laptop, mac mini with a widescreen display, google pixel 3 and an Ipad Pro 12.9".
+- Browser Compatipility - tested in the following browsers with satisfactory results:
    - Safari - version 15.4 (17613.1.17.1.13)
    - Chrome - version 102.0.5005.61 (Official Build) (arm64)
    - Firefox - version 100.0.2 (64-bit)
@@ -171,8 +171,8 @@ The design ethos throughout development has been to create an engaging, visually
 
 ### Known Bugs and Room For Improvement
 
- - No obvious bugs were found during the above testing process.
- - Lighthouse testing revelaed some areas for improvement in optimisation and best practice, but the solutions were deemed be outside the scope of this project.
+ - No obvious bugs were found during the above testing process that could not be rectified.
+ - Lighthouse testing revealed some areas for improvement in optimisation and best practice, but the solutions were deemed be outside the scope of this CSS and HTML focused project.
 
 
 ## Deployment
