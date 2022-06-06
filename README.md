@@ -8,7 +8,10 @@ Chess Space is a site created by a hypothetical professional chess player with t
 
 ![Responsive Mockup](media/site-mockup.png)
 
-  
+## Table of Contents
+* [Features](#features)
+* [Technologies Used](#technologies-used)
+* [Credits](#credits)
 
 ## Features
 
@@ -130,7 +133,7 @@ Chess Space is a site created by a hypothetical professional chess player with t
 
 - [Git](https://git-scm.com/) - for version control.
 - [Github](https://github.com/) - repository to store the project files and host/share the project.
-- [Gitpod](https://gitpod.io/) - IDE used to write the code.
+- [Gitpod](https://gitpod.io/) - the browser IDE used to write the project code.
 - [Convertio](https://convertio.co/jpg-webp/) - used to convert jpg images to better optimised webp format.
 - [Optimizilla](https://imagecompressor.com/) - used to optimise the images for better performance.
 - Chrome developer tools - used to view, edit and test the site throughout development.
@@ -188,3 +191,7 @@ Images came from [pexels.com](https://www.pexels.com/search/chess/).
   
 
 - The font comes from [Google Fonts](https://fonts.google.com/).
+
+### Acknowledgements
+
+I would like to thank Brian Maharia for his help throughout project development.  I would also like to thank Code Institute for providing all the learning materials which made the project possible.
