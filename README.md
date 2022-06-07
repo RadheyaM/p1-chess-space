@@ -121,13 +121,13 @@ The design ethos throughout development is to create a visually attractive and n
 
 -  _Features for Future Implementation:_
 
+   - A members section with chess club leaderboard.
+
    - A Blog Page.
 
-   - A Community Discussion Forum.
+   - A community discussion forum.
 
-   - A Members section with chess club leaderboard.
-
-   - Sign-up buttons/cards on the More Chess Page.
+   - Sign-up buttons/cards on the More Chess page.
 
    - A 404 error page.
 
@@ -164,7 +164,7 @@ The design ethos throughout development is to create a visually attractive and n
    - [Test Results](/media/lighthouse-results/)
 - Responsive Across Screen Sizes:
    - The three pages have been extensively tested on various simulated screen sizes using Chrome Developer Tools throughout development for the best possible experience on any screen size.
-   - Tested on a windows laptop, mac mini with a widescreen display, google pixel 3 and an Ipad Pro 12.9".
+   - Tested by the developer on a Windows 11 laptop, Mac Mini with a widescreen display, Google Pixel 3a and an Ipad Pro 12.9".
 - Browser Compatipility - tested in the following browsers with satisfactory results:
    - Safari - version 15.4 (17613.1.17.1.13)
    - Chrome - version 102.0.5005.61 (Official Build) (arm64)
@@ -174,13 +174,13 @@ The design ethos throughout development is to create a visually attractive and n
 ### Known Bugs and Room For Improvement
 
  - No obvious bugs were found during the above testing process that could not be rectified.
- - Lighthouse testing revealed some areas for improvement in optimisation and best practice, but the solutions were deemed be outside the scope of this CSS and HTML focused project.
+ - Lighthouse testing revealed some areas for improvement in optimisation and best practice, but the solutions were deemed to be outside the scope of this CSS and HTML focused project.
 
 
 ## Deployment
 
 Within the Github respository window select the 'settings' tab menu and navigate to 'pages'.
-Select 'Branch: main' from the dropdown menu and execute. The site will be live in a matter of minutes, and the live URL will be displayed.  Any changes made after deployment in the main branch will be added to the live site after they are committed and pushed to the Github repository.
+Select 'Branch: main' from the dropdown menu and execute. The site will be live in a matter of minutes, and the live URL will be displayed on the same deployment page.  Any changes made after deployment in the main branch will be added to the live site after they are committed and pushed to the Github repository.
 
 ## Credits
 ### Code
@@ -207,7 +207,7 @@ Select 'Branch: main' from the dropdown menu and execute. The site will be live 
 
 ### Images
 
-Images came from [pexels.com](https://www.pexels.com/search/chess/).
+Images come from [pexels.com](https://www.pexels.com/search/chess/).
 - Hero Image
 
   - [Ylanite Koppens - Chess Pieces on Table](https://www.pexels.com/photo/chess-pieces-on-table-1152662/).
@@ -224,7 +224,7 @@ Images came from [pexels.com](https://www.pexels.com/search/chess/).
 ### Font Libraries
 
 - The Icons in the logo and footer are free to use fonts from [Font Awesome](https://fontawesome.com/).
-- The font comes from the [Google Fonts](https://fonts.google.com/) library.
+- The Monserrat font used comes from the [Google Fonts](https://fonts.google.com/) library.
 
 ### Acknowledgements
 
