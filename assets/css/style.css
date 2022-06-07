@@ -177,6 +177,7 @@ nav a:hover {
 
 .hero-section {
     background-image: url(../images/hero-image.webp);
+    background-color: var(--body-bg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -192,7 +193,7 @@ nav a:hover {
     
     margin: auto;
     width: 65%;
-    height: 50vh;
+    height: 60vh;
     padding: 4em 1em 7em 1em;
 
     max-width: 490px;
@@ -281,6 +282,7 @@ nav a:hover {
     color: var(--main-txt2);
     background-image: url(../images/why-chess.webp);
     background-size: cover;
+    background-color: var(--main-txt);
     background-repeat: no-repeat;
     
     height: fit-content;
@@ -482,8 +484,8 @@ hr {
     .hero-text {
         position: absolute;
         margin: 0;
-        top: 100px;
-        right: 90px;
+        top: 25px;
+        right: 120px;
     }
 
 }
