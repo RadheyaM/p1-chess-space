@@ -7,7 +7,7 @@ Chess Space is a site created for a hypothetical professional chess player with 
 The design ethos throughout development is to create a visually attractive and navigationally intuitive site providing the user with an engaging and enjoyable environment, and offering real value with informative and entertaining content.  Through providing value in this way the developer hopes to encourage the user to subscribe to one of the offers displayed and engage/become invested in the community surrounding the site.
 
 
-![Responsive Mockup](media/site-mockup.png)
+![Responsive Mockup](media/site-mockup.webp)
 
 ## Table of Contents
 * [Features](#features)
@@ -31,7 +31,7 @@ The design ethos throughout development is to create a visually attractive and n
   
   
 
-![Full Navigation Bar](media/navigation-bar.png)
+![Full Navigation Bar](media/navigation-bar.webp)
 
   
 
@@ -39,7 +39,7 @@ The design ethos throughout development is to create a visually attractive and n
 
   
 
-![Hamburger Expanded Nav Bar](media/hamburger-expanded-nav.png)
+![Hamburger Expanded Nav Bar](media/hamburger-expanded-nav.webp)
 
   
 
@@ -51,7 +51,7 @@ The design ethos throughout development is to create a visually attractive and n
 
   
 
-![Hero Section](media/smaller-screen-hero.png)
+![Hero Section](media/hero-section.webp)
 
   
 
@@ -65,7 +65,7 @@ The design ethos throughout development is to create a visually attractive and n
 
   
 
-![Offer Cards](media/offer-cards.png)
+![Offer Cards](media/offer-cards.webp)
 
   
 
@@ -77,7 +77,7 @@ The design ethos throughout development is to create a visually attractive and n
 
   
 
-![Why Chess?](media/why-chess.png)
+![Why Chess?](media/why-chess.webp)
 
   
 
@@ -87,7 +87,7 @@ The design ethos throughout development is to create a visually attractive and n
 
   
 
-![Footer](media/footer.png)
+![Footer](media/footer.webp)
 
   
 
@@ -101,7 +101,7 @@ The design ethos throughout development is to create a visually attractive and n
 
   
 
-![More Chess](media/more-chess.png)
+![More Chess](media/more-chess.webp)
 
   
 
@@ -115,7 +115,7 @@ The design ethos throughout development is to create a visually attractive and n
 
   
 
-![Contact Page](media/sign-up.png)
+![Contact Page](media/sign-up.webp)
 
   
 
