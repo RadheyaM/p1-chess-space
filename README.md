@@ -4,8 +4,9 @@
 
 Chess Space is a site created for a hypothetical professional chess player with the aim of increasing his online following and signing users up to his lessons and/or chess club. The site provides clear and obvious ways for the user to sign-up as well as various resources designed to increase user interest in chess and motivate subscription.
 
-The design ethos throughout development is to create a visually attractive and navigationally intuitive site providing the user with an engaging and enjoyable environment, and offering real value with informative and entertaining content.  Through providing value in this way the developer hopes to encourage the user to subscribe to one of the offers displayed and engage/become invested in the community surrounding the site.
+The design ethos throughout development has been to create a visually attractive and navigationally intuitive site providing the user with an engaging and enjoyable environment, and offering real value with informative and entertaining content.  Through providing value in this way the developer hopes to encourage the user to subscribe to one of the offers displayed and engage/become invested in the community surrounding the site.
 
+The target audience for the site includes users of all chess skill levels interested in joining a chess community, taking lessons, organising a chess event, or learning more about chess in general.  The design allows those seeking to sign-up, or find out more about sign-up options, to do so quickly and easily and provides more information and resources for users interested in researching chess further before signing-up.
 
 ![Responsive Mockup](media/site-mockup.webp)
 
