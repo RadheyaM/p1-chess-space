@@ -229,4 +229,4 @@ Images come from [pexels.com](https://www.pexels.com/search/chess/).
 
 ### Acknowledgements
 
-I would like to thank Brian Maharia for his help throughout project development.  I would also like to thank Code Institute for providing all the learning materials which made the project possible.
+I would like to thank Brian Macharia for his help throughout project development.  I would also like to thank Code Institute for providing all the learning materials which made the project possible.
